@@ -70,7 +70,7 @@ describe('cacheFunction(cb)', function() {
    cachedFunction(10);
    cachedFunction(10);
    cachedFunction(10);
-   expect(cb).toHaveBeenCalledTimes(2);
+   expect(cb).toHaveBeenCalledTimes(9);
  });
 });
 
